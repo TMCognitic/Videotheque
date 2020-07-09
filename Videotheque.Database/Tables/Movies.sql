@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Movies]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[Title] NVARCHAR(200) NOT NULL,
+	[Year] INT NOT NULL,
+    CONSTRAINT [PK_Movies] PRIMARY KEY ([Id])
+)
